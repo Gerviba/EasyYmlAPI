@@ -1,0 +1,16 @@
+package hu.gerviba.easyymlapi.identifiers;
+
+import static java.lang.annotation.ElementType.FIELD;
+import static java.lang.annotation.RetentionPolicy.RUNTIME;
+
+import java.lang.annotation.Retention;
+import java.lang.annotation.Target;
+
+@Retention(RUNTIME)
+@Target(FIELD)
+public @interface ConfigValue {
+	public String path() default "";
+	public String name() default "";
+	public String defaultValue() default "";
+	
+}

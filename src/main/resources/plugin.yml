@@ -1,0 +1,5 @@
+name: ${name}
+main: ${groupId}.${artifactId}.YamlAPIManager
+version: ${version}
+author: Gerviba
+description: Yaml Configucation Util by Gerviba
